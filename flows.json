@@ -1,0 +1,1993 @@
+[
+    {
+        "id": "1b1fbcb8fb5adfd3",
+        "type": "tab",
+        "label": "Primeiro",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "87545b1ff50e52f1",
+        "type": "tab",
+        "label": "Consultas API CNPJ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0202b164500e7792",
+        "type": "tab",
+        "label": "Interface CNPJ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a84d732efcb065dd",
+        "type": "tab",
+        "label": "Disparo de emails",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "dbfa75b8096f69de",
+        "type": "tab",
+        "label": "Interface de tradução",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6183d81470a8ed7b",
+        "type": "group",
+        "z": "1b1fbcb8fb5adfd3",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ff5684d22d2dbfe0",
+            "3e5e90a17df025fe",
+            "01b9d62cc7ab237a",
+            "b05f4672bf707dd6",
+            "c8e86319fdb784b6",
+            "eaa508a3335923a9",
+            "6c1ed5c520622b23"
+        ],
+        "x": 1034,
+        "y": 259,
+        "w": 192,
+        "h": 342
+    },
+    {
+        "id": "21a032c8f4f3e58c",
+        "type": "group",
+        "z": "1b1fbcb8fb5adfd3",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "595868968abb1f81",
+            "96dd332009cb9f72",
+            "069ed8d814bc6216",
+            "d5d98736dbc5e6fb",
+            "9770138d8a638059",
+            "aa84d9de6ef56077"
+        ],
+        "x": 1034,
+        "y": 639,
+        "w": 192,
+        "h": 282
+    },
+    {
+        "id": "914c6c738e1c9269",
+        "type": "group",
+        "z": "1b1fbcb8fb5adfd3",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "94a0c6191000f189",
+            "cc1d16465e8b6fa6",
+            "3187f6b22ad0cbfc",
+            "e2a067f3eed73e7d",
+            "191e26feb4bc6030",
+            "e01a2f637d93df4a"
+        ],
+        "x": 1034,
+        "y": 959,
+        "w": 192,
+        "h": 282
+    },
+    {
+        "id": "84e74148aafc1f10",
+        "type": "group",
+        "z": "1b1fbcb8fb5adfd3",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fc0a36617c21e9ad",
+            "42dff0842549ee69",
+            "6ba8075fd401b03d",
+            "5dc64aef313937ed",
+            "9fc2de44206652a4",
+            "a7d901ca5773700d"
+        ],
+        "x": 1034,
+        "y": 1279,
+        "w": 192,
+        "h": 282
+    },
+    {
+        "id": "3e01cbb0c2989a91",
+        "type": "group",
+        "z": "1b1fbcb8fb5adfd3",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "26aa80f9972b1f2e",
+            "419f8df3585d401f",
+            "363bbc573ad07e1d",
+            "fc197cdc04b382a2",
+            "5454298f9d9da491",
+            "d95439619cddcde6"
+        ],
+        "x": 1034,
+        "y": 1599,
+        "w": 192,
+        "h": 282
+    },
+    {
+        "id": "9cb4d8cc268dd1c6",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "072dfe3b5b154493",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Aula Experts-Flows",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4b4d782e97fb08fe",
+        "type": "ui_tab",
+        "name": "Expert Flows",
+        "icon": "apple",
+        "order": 1,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "1e6342f3958c1854",
+        "type": "ui_group",
+        "name": "Vinicius",
+        "tab": "4b4d782e97fb08fe",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f8a0a748c171e4ed",
+        "type": "ui_group",
+        "name": "Fernando",
+        "tab": "4b4d782e97fb08fe",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d586289968ef2099",
+        "type": "ui_group",
+        "name": "Renan",
+        "tab": "4b4d782e97fb08fe",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d94b594d0b28df30",
+        "type": "ui_group",
+        "name": "Priscila",
+        "tab": "4b4d782e97fb08fe",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f2e9d8331e686345",
+        "type": "ui_group",
+        "name": "Vitor",
+        "tab": "4b4d782e97fb08fe",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "41d0bb9b14419345",
+        "type": "ui_tab",
+        "name": "Mensagem",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "bac96c7be53b66b7",
+        "type": "ui_group",
+        "name": "Formulário",
+        "tab": "41d0bb9b14419345",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a766f8d8c2706e52",
+        "type": "ui_group",
+        "name": "Informação",
+        "tab": "41d0bb9b14419345",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9c736fd40c1146db",
+        "type": "ui_tab",
+        "name": "Consulta CNPJ",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2c946773893971a2",
+        "type": "ui_group",
+        "name": "Entrada",
+        "tab": "9c736fd40c1146db",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8551be7d02787a02",
+        "type": "ui_group",
+        "name": "Informações",
+        "tab": "9c736fd40c1146db",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3e650492f1ec6f00",
+        "type": "ui_tab",
+        "name": "Tradução",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c1b572182d8da200",
+        "type": "ui_group",
+        "name": "Entrada de audio",
+        "tab": "3e650492f1ec6f00",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c6c196128fef4e23",
+        "type": "ui_group",
+        "name": "Saida de audio",
+        "tab": "3e650492f1ec6f00",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e981410462949e37",
+        "type": "inject",
+        "z": "1b1fbcb8fb5adfd3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Vinicius Fiuza",
+        "payloadType": "str",
+        "x": 110,
+        "y": 40,
+        "wires": [
+            [
+                "cfd27bd8d70bd16e",
+                "1e1cbe96337b908e"
+            ]
+        ]
+    },
+    {
+        "id": "1e1cbe96337b908e",
+        "type": "debug",
+        "z": "1b1fbcb8fb5adfd3",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "cfd27bd8d70bd16e",
+        "type": "change",
+        "z": "1b1fbcb8fb5adfd3",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Vinicius",
+                "fromt": "str",
+                "to": "Andressa",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Fiuza",
+                "fromt": "str",
+                "to": "Barbosa",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 80,
+        "wires": [
+            [
+                "1e1cbe96337b908e"
+            ]
+        ]
+    },
+    {
+        "id": "2455d9afeb1686f8",
+        "type": "mqtt out",
+        "z": "1b1fbcb8fb5adfd3",
+        "name": "",
+        "topic": "Aula-Experts-Flows",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9cb4d8cc268dd1c6",
+        "x": 1410,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "3aceeff155ed8285",
+        "type": "inject",
+        "z": "1b1fbcb8fb5adfd3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload.id",
+                "v": "13",
+                "vt": "str"
+            },
+            {
+                "p": "payload.nome",
+                "v": "Vinicius",
+                "vt": "str"
+            },
+            {
+                "p": "payload.sobrenome",
+                "v": "Fiuza",
+                "vt": "str"
+            },
+            {
+                "p": "payload.idade",
+                "v": "18",
+                "vt": "num"
+            },
+            {
+                "p": "payload.profissao",
+                "v": "Assistente Administrativo",
+                "vt": "str"
+            },
+            {
+                "p": "payload.hobbies",
+                "v": "Futebol",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 290,
+        "y": 200,
+        "wires": [
+            [
+                "2455d9afeb1686f8"
+            ]
+        ]
+    },
+    {
+        "id": "882701265b5d65a9",
+        "type": "mqtt in",
+        "z": "1b1fbcb8fb5adfd3",
+        "name": "",
+        "topic": "Aula-Experts-Flows",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "9cb4d8cc268dd1c6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 400,
+        "wires": [
+            [
+                "38f1f02ab7e55e3b",
+                "7cd3e0f205f2ab92",
+                "0bf8ee7147d3bcdb",
+                "231a37c1dcc5b8e5",
+                "235e092b64a0a3e5"
+            ]
+        ]
+    },
+    {
+        "id": "38f1f02ab7e55e3b",
+        "type": "debug",
+        "z": "1b1fbcb8fb5adfd3",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "ff5684d22d2dbfe0",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "6183d81470a8ed7b",
+        "group": "1e6342f3958c1854",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nome",
+        "format": "{{msg.payload.nome}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "3e5e90a17df025fe",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "6183d81470a8ed7b",
+        "group": "1e6342f3958c1854",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sobrenome",
+        "format": "{{msg.payload.sobrenome}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1130,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "01b9d62cc7ab237a",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "6183d81470a8ed7b",
+        "group": "1e6342f3958c1854",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Idade",
+        "format": "{{msg.payload.idade}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b05f4672bf707dd6",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "6183d81470a8ed7b",
+        "group": "1e6342f3958c1854",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Profissão",
+        "format": "{{msg.payload.profissao}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c8e86319fdb784b6",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "6183d81470a8ed7b",
+        "group": "1e6342f3958c1854",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "hobbies",
+        "format": "{{msg.payload.hobbies}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "7cd3e0f205f2ab92",
+        "type": "switch",
+        "z": "1b1fbcb8fb5adfd3",
+        "name": "",
+        "property": "payload.id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "13",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "7",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0304",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "96",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 290,
+        "y": 580,
+        "wires": [
+            [
+                "ff5684d22d2dbfe0",
+                "3e5e90a17df025fe",
+                "01b9d62cc7ab237a",
+                "b05f4672bf707dd6",
+                "c8e86319fdb784b6"
+            ],
+            [
+                "595868968abb1f81",
+                "96dd332009cb9f72",
+                "069ed8d814bc6216",
+                "d5d98736dbc5e6fb",
+                "9770138d8a638059"
+            ],
+            [
+                "94a0c6191000f189",
+                "cc1d16465e8b6fa6",
+                "3187f6b22ad0cbfc",
+                "e2a067f3eed73e7d",
+                "191e26feb4bc6030"
+            ],
+            [
+                "fc0a36617c21e9ad",
+                "42dff0842549ee69",
+                "6ba8075fd401b03d",
+                "5dc64aef313937ed",
+                "9fc2de44206652a4"
+            ],
+            [
+                "26aa80f9972b1f2e",
+                "419f8df3585d401f",
+                "363bbc573ad07e1d",
+                "fc197cdc04b382a2",
+                "5454298f9d9da491"
+            ]
+        ]
+    },
+    {
+        "id": "eaa508a3335923a9",
+        "type": "comment",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "6183d81470a8ed7b",
+        "name": "Vinicius",
+        "info": "",
+        "x": 1130,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "595868968abb1f81",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "21a032c8f4f3e58c",
+        "group": "f8a0a748c171e4ed",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nome",
+        "format": "{{msg.payload.nome}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "96dd332009cb9f72",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "21a032c8f4f3e58c",
+        "group": "f8a0a748c171e4ed",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sobrenome",
+        "format": "{{msg.payload.sobrenome}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1130,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "069ed8d814bc6216",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "21a032c8f4f3e58c",
+        "group": "f8a0a748c171e4ed",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Idade",
+        "format": "{{msg.payload.idade}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "d5d98736dbc5e6fb",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "21a032c8f4f3e58c",
+        "group": "f8a0a748c171e4ed",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Profissão",
+        "format": "{{msg.payload.profissao}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "9770138d8a638059",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "21a032c8f4f3e58c",
+        "group": "f8a0a748c171e4ed",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "hobbies",
+        "format": "{{msg.payload.hobbies}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "aa84d9de6ef56077",
+        "type": "comment",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "21a032c8f4f3e58c",
+        "name": "Fernando",
+        "info": "",
+        "x": 1140,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "94a0c6191000f189",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "914c6c738e1c9269",
+        "group": "d586289968ef2099",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nome",
+        "format": "{{msg.payload.nome}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "cc1d16465e8b6fa6",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "914c6c738e1c9269",
+        "group": "d586289968ef2099",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sobrenome",
+        "format": "{{msg.payload.sobrenome}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1130,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "3187f6b22ad0cbfc",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "914c6c738e1c9269",
+        "group": "d586289968ef2099",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Idade",
+        "format": "{{msg.payload.idade}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "e2a067f3eed73e7d",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "914c6c738e1c9269",
+        "group": "d586289968ef2099",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Profissão",
+        "format": "{{msg.payload.profissao}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "191e26feb4bc6030",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "914c6c738e1c9269",
+        "group": "d586289968ef2099",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "hobbies",
+        "format": "{{msg.payload.hobbies}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "e01a2f637d93df4a",
+        "type": "comment",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "914c6c738e1c9269",
+        "name": "Renan",
+        "info": "",
+        "x": 1130,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "fc0a36617c21e9ad",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "84e74148aafc1f10",
+        "group": "d94b594d0b28df30",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nome",
+        "format": "{{msg.payload.nome}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "42dff0842549ee69",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "84e74148aafc1f10",
+        "group": "d94b594d0b28df30",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sobrenome",
+        "format": "{{msg.payload.sobrenome}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1130,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "6ba8075fd401b03d",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "84e74148aafc1f10",
+        "group": "d94b594d0b28df30",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Idade",
+        "format": "{{msg.payload.idade}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "5dc64aef313937ed",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "84e74148aafc1f10",
+        "group": "d94b594d0b28df30",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Profissão",
+        "format": "{{msg.payload.profissao}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "9fc2de44206652a4",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "84e74148aafc1f10",
+        "group": "d94b594d0b28df30",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "hobbies",
+        "format": "{{msg.payload.hobbies}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "a7d901ca5773700d",
+        "type": "comment",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "84e74148aafc1f10",
+        "name": "Priscila",
+        "info": "",
+        "x": 1130,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "26aa80f9972b1f2e",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "3e01cbb0c2989a91",
+        "group": "f2e9d8331e686345",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nome",
+        "format": "{{msg.payload.nome}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "419f8df3585d401f",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "3e01cbb0c2989a91",
+        "group": "f2e9d8331e686345",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sobrenome",
+        "format": "{{msg.payload.sobrenome}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1130,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "363bbc573ad07e1d",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "3e01cbb0c2989a91",
+        "group": "f2e9d8331e686345",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Idade",
+        "format": "{{msg.payload.idade}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "fc197cdc04b382a2",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "3e01cbb0c2989a91",
+        "group": "f2e9d8331e686345",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Profissão",
+        "format": "{{msg.payload.profissao}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "5454298f9d9da491",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "3e01cbb0c2989a91",
+        "group": "f2e9d8331e686345",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "hobbies",
+        "format": "{{msg.payload.hobbies}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "d95439619cddcde6",
+        "type": "comment",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "3e01cbb0c2989a91",
+        "name": "Vitor",
+        "info": "",
+        "x": 1130,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "6c1ed5c520622b23",
+        "type": "ui_form",
+        "z": "1b1fbcb8fb5adfd3",
+        "g": "6183d81470a8ed7b",
+        "name": "",
+        "label": "",
+        "group": "bac96c7be53b66b7",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "ID",
+                "value": "id",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Nome",
+                "value": "nome",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Sobrenome",
+                "value": "sobrenome",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Idade",
+                "value": "idade",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Profissão",
+                "value": "profissao",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Hobbies",
+                "value": "hobbies",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Mensagem",
+                "value": "mensagem",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "id": "",
+            "nome": "",
+            "sobrenome": "",
+            "idade": "",
+            "profissao": "",
+            "hobbies": "",
+            "mensagem": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 1130,
+        "y": 560,
+        "wires": [
+            [
+                "2455d9afeb1686f8"
+            ]
+        ]
+    },
+    {
+        "id": "0bf8ee7147d3bcdb",
+        "type": "ui_text",
+        "z": "1b1fbcb8fb5adfd3",
+        "group": "a766f8d8c2706e52",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload.mensagem}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 290,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "231a37c1dcc5b8e5",
+        "type": "change",
+        "z": "1b1fbcb8fb5adfd3",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.mensagem",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f34d6c0cdd418021",
+        "type": "ui_toast",
+        "z": "1b1fbcb8fb5adfd3",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 570,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "235e092b64a0a3e5",
+        "type": "change",
+        "z": "1b1fbcb8fb5adfd3",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.name",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 420,
+        "wires": [
+            [
+                "f34d6c0cdd418021"
+            ]
+        ]
+    },
+    {
+        "id": "963c30e5b0163e6b",
+        "type": "inject",
+        "z": "87545b1ff50e52f1",
+        "name": "",
+        "props": [
+            {
+                "p": "url",
+                "v": "https://publica.cnpj.ws/cnpj/34185732000115",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "39c63b6470021139"
+            ]
+        ]
+    },
+    {
+        "id": "39c63b6470021139",
+        "type": "http request",
+        "z": "87545b1ff50e52f1",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "ee009c7e5e0ee0bf"
+            ]
+        ]
+    },
+    {
+        "id": "ee009c7e5e0ee0bf",
+        "type": "debug",
+        "z": "87545b1ff50e52f1",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "254d24361d69439b",
+        "type": "ui_form",
+        "z": "87545b1ff50e52f1",
+        "name": "",
+        "label": "",
+        "group": "2c946773893971a2",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "CNPJ",
+                "value": "cnpj",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Email",
+                "value": "email",
+                "type": "email",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Email Copias",
+                "value": "copias",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "cnpj": "",
+            "email": "",
+            "copias": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 70,
+        "y": 200,
+        "wires": [
+            [
+                "cab6fa8ba9363041",
+                "fc4d934cb20e44f4"
+            ]
+        ]
+    },
+    {
+        "id": "e402b5fd0e9a5025",
+        "type": "debug",
+        "z": "87545b1ff50e52f1",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "831df2184d2c1346",
+        "type": "template",
+        "z": "87545b1ff50e52f1",
+        "name": "",
+        "field": "url",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "https://publica.cnpj.ws/cnpj/{{payload.cnpj}}",
+        "output": "str",
+        "x": 560,
+        "y": 200,
+        "wires": [
+            [
+                "f54d1e5534cfee83"
+            ]
+        ]
+    },
+    {
+        "id": "f54d1e5534cfee83",
+        "type": "http request",
+        "z": "87545b1ff50e52f1",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 770,
+        "y": 200,
+        "wires": [
+            [
+                "e402b5fd0e9a5025",
+                "d8bcaaf4f7792d5f"
+            ]
+        ]
+    },
+    {
+        "id": "cab6fa8ba9363041",
+        "type": "change",
+        "z": "87545b1ff50e52f1",
+        "name": "Correção de caracteres",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload.cnpj",
+                "pt": "msg",
+                "from": "/",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload.cnpj",
+                "pt": "msg",
+                "from": ".",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload.cnpj",
+                "pt": "msg",
+                "from": "-",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload.cnpj",
+                "pt": "msg",
+                "from": " ",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "move",
+                "p": "payload.email",
+                "pt": "msg",
+                "to": "email",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.copias",
+                "pt": "msg",
+                "to": "copias",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 200,
+        "wires": [
+            [
+                "831df2184d2c1346",
+                "fc4d934cb20e44f4"
+            ]
+        ]
+    },
+    {
+        "id": "fc4d934cb20e44f4",
+        "type": "debug",
+        "z": "87545b1ff50e52f1",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 280,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "d8bcaaf4f7792d5f",
+        "type": "link out",
+        "z": "87545b1ff50e52f1",
+        "name": "Saída de resultados CNPJ",
+        "mode": "link",
+        "links": [
+            "7491a48886f4c858",
+            "f729a492a0e0b3ee"
+        ],
+        "x": 945,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7491a48886f4c858",
+        "type": "link in",
+        "z": "0202b164500e7792",
+        "name": "Chegada de CNPJ",
+        "links": [
+            "d8bcaaf4f7792d5f"
+        ],
+        "x": 256.00000762939453,
+        "y": 218.00000953674316,
+        "wires": [
+            [
+                "3b925b0639ec41f2",
+                "2cf6d2a321a95eae",
+                "3b6d44ba6369ed72",
+                "2e046f61ba507daf"
+            ]
+        ]
+    },
+    {
+        "id": "3b925b0639ec41f2",
+        "type": "debug",
+        "z": "0202b164500e7792",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2cf6d2a321a95eae",
+        "type": "ui_text",
+        "z": "0202b164500e7792",
+        "group": "8551be7d02787a02",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Razão Social:",
+        "format": "{{msg.payload.razao_social}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 440,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "3b6d44ba6369ed72",
+        "type": "template",
+        "z": "0202b164500e7792",
+        "name": "",
+        "field": "payload.capital_social",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "R${{payload.capital_social}}",
+        "output": "str",
+        "x": 420,
+        "y": 300,
+        "wires": [
+            [
+                "aabb503fe9503941"
+            ]
+        ]
+    },
+    {
+        "id": "aabb503fe9503941",
+        "type": "ui_text",
+        "z": "0202b164500e7792",
+        "group": "8551be7d02787a02",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Capital Social:",
+        "format": "{{msg.payload.capital_social}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 620,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "2e046f61ba507daf",
+        "type": "ui_text",
+        "z": "0202b164500e7792",
+        "group": "8551be7d02787a02",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "cnpj_raiz",
+        "format": "{{msg.payload.cnpj_raiz}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 420,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "cd40978fe7af3fe0",
+        "type": "e-mail",
+        "z": "a84d732efcb065dd",
+        "server": "smtp.office365.com",
+        "port": "587",
+        "secure": false,
+        "tls": true,
+        "name": "andressabd19@gmail.com",
+        "dname": "",
+        "x": 520,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e3ccc40301f3b9dd",
+        "type": "e-mail",
+        "z": "a84d732efcb065dd",
+        "server": "smtp.office365.com",
+        "port": "587",
+        "secure": false,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 450,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "1a8b81bf53aa7a2e",
+        "type": "debug",
+        "z": "a84d732efcb065dd",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "78003f8cc1e21dc7",
+        "type": "template",
+        "z": "a84d732efcb065dd",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "cnpj raiz:{{payload.cnpj_raiz}} !\nrazao social:{{payload.razao_social}} !\ncapital social: R$ {{payload.capital_social}} !\nnatureza juridica:{{payload.natureza_juridica.descricao}} !\nSocio Nome: {{payload.socios.0.nome}} !\nPF ou PJ: {{payload.socios.0.tipo}} !\nSocio Idade: {{payload.socios.0.faixa_etaria}} !\nOptante Simples: {{payload.simples.simples}} !\nNome fantasia: {{payload.estabelecimento.nome_fantasia}} !",
+        "output": "str",
+        "x": 180,
+        "y": 280,
+        "wires": [
+            [
+                "84fef5e290e35ca8"
+            ]
+        ]
+    },
+    {
+        "id": "84fef5e290e35ca8",
+        "type": "change",
+        "z": "a84d732efcb065dd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CNPJ teste aula ",
+                "tot": "str"
+            },
+            {
+                "t": "move",
+                "p": "email",
+                "pt": "msg",
+                "to": "to",
+                "tot": "msg"
+            },
+            {
+                "t": "move",
+                "p": "copias",
+                "pt": "msg",
+                "to": "bcc",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 340,
+        "wires": [
+            [
+                "1a8b81bf53aa7a2e",
+                "e3ccc40301f3b9dd"
+            ]
+        ]
+    },
+    {
+        "id": "f729a492a0e0b3ee",
+        "type": "link in",
+        "z": "a84d732efcb065dd",
+        "name": "Chegada de CNPJ",
+        "links": [
+            "d8bcaaf4f7792d5f"
+        ],
+        "x": 45,
+        "y": 280,
+        "wires": [
+            [
+                "78003f8cc1e21dc7"
+            ]
+        ]
+    },
+    {
+        "id": "6048c9a9f412c529",
+        "type": "ui_microphone",
+        "z": "dbfa75b8096f69de",
+        "name": "",
+        "group": "c1b572182d8da200",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "maxLength": 5,
+        "maxRecogLength": "15",
+        "timeslice": 0,
+        "press": "click",
+        "mode": "recog",
+        "interimResults": false,
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "bd8d155b7649183a",
+                "5096521f67af6cb5"
+            ]
+        ]
+    },
+    {
+        "id": "5096521f67af6cb5",
+        "type": "debug",
+        "z": "dbfa75b8096f69de",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "bd8d155b7649183a",
+        "type": "google-translate",
+        "z": "dbfa75b8096f69de",
+        "from": "auto",
+        "name": "",
+        "to": "en",
+        "x": 400,
+        "y": 240,
+        "wires": [
+            [
+                "d19cd8f9b24003cc",
+                "87683a8249ee8912"
+            ]
+        ]
+    },
+    {
+        "id": "d19cd8f9b24003cc",
+        "type": "ui_text",
+        "z": "dbfa75b8096f69de",
+        "group": "c6c196128fef4e23",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 630,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "87683a8249ee8912",
+        "type": "ui_audio",
+        "z": "dbfa75b8096f69de",
+        "name": "",
+        "group": "c6c196128fef4e23",
+        "voice": "Google US English",
+        "always": "",
+        "x": 640,
+        "y": 280,
+        "wires": []
+    }
+]
